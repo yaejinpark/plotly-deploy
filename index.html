@@ -7,10 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -34,14 +34,17 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <p class="chart-info">The bar chart above shows the top 10 microorganisms that reside in the sample individual's bellybutton.</p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p class="chart-info">How often does the individual wash their bellybuttons and how do they relate to the information on the bar chart located on the left? This is the "Wash Frequency Gauge" chart that shows how often an individual washes their belly button. TMI.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="bubble-container">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p class="chart-info">The bar chart above did not show the information of all microorganisms in the sample's bellybutton as that would not provide a helpful visualization, so here it is in a bubble chart form.</p>
       </div>
     </div>
   </div>
@@ -50,7 +53,6 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- <script src="plots.js"></script> -->
   <script src="charts.js"></script>
-
 </body>
 
 </html>

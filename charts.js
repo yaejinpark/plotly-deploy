@@ -178,8 +178,8 @@ function buildGaugeChart(sample) {
   // Create the layout for the bar chart. 
   var gaugeLayout = {
     title: 'Belly Button Washing Frequency',
-    width: 500,
-    height: 400
+    width: 400,
+    height: 350
   };
 
   // Use Plotly to plot the data with the layout. 
